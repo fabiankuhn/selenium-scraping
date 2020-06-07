@@ -9,7 +9,10 @@ This project shows, how data can be scraped using silenium. Aim ist to receive i
 
 ## Documentation
 - Presentation documentation: [TI-Präsentation.pdf](_docs/TI-Präsentation.pdf)
-- SQL Results in H2: [H2-Console](http://localhost:8081/console/login.jsp?jsessionid=896aecddd4c34229b7f00fbe25716123)
+- SQL Results in H2
+    - Install Dependencies: `$ mvn install`
+    - Run Server: `$ mvn spring-boot:run`
+    - Open H2 console: [H2-Console](http://localhost:8081/console/login.jsp?jsessionid=896aecddd4c34229b7f00fbe25716123)
     - JDBC URL: jdbc:h2:./db_scrape
     - Username: test
     - Password: \<empty\>
